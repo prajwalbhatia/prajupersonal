@@ -1,0 +1,469 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import "https://use.fontawesome.com/releases/v5.7.0/css/all.css" ;
+
+
+
+body
+{
+  height:100% ;
+  max-width: 100%;
+  
+}
+.aa
+{
+  
+  position: absolute;
+  z-index: 5;
+  
+}
+.main{
+  max-width: 100%;
+    background-image: url(./images/praj.jpeg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+
+
+
+
+.pic_div
+{
+  background-image: url(/images/praj.jpeg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  background-attachment: fixed;
+  position:static;
+  max-width: 100%;
+}
+
+.name
+{
+  z-index: 10;
+  font-family: 'Charm', cursive;
+  position: relative;
+  top:100px;
+  right:0;
+  margin-right: 150px;
+  color: white;
+  
+}
+
+
+.nav
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 250px;
+    height: 100%;
+    z-index: 50;
+    background-color: rgba(0,0,0,0.7); /*dim the background*/
+  }
+
+
+
+.writing
+{
+  color: white;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+  .education,.experience,.projects,.contacts,.writings
+  {
+    min-height: 700px;
+    background-color: #e5e5e5;
+    text-align: center;
+  }
+  
+  .experience
+  {
+    background-color: transparent;
+  }
+  
+  .education
+  {
+    background-color: transparent;
+  }
+  
+  .projects
+  {
+  
+    min-height: 1500px;
+  }
+  
+  .edu
+  {
+    position: relative;
+    font-size: 4em;
+    top:20px;
+    font-family: 'Charm', cursive;
+  }
+  
+  .edu::before, .edu::after{
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+  }
+  
+  .edu::before
+  {
+    right: 0.5em;
+    
+  }
+  
+  .edu::after{
+    left: 0.5em;
+    
+  }
+  
+  .clg
+  {
+    position: relative;
+    top:20px; 
+    overflow: hidden ;
+    scroll-behavior: auto;
+    min-height: 250px;
+  }
+  
+  .clg_pic,.school_pic,.gooffer_pic,.Idealvillage_pic,.ether_pic,.augmenter_pic,.hospitobook_pic,.ecommerce,.personal,.js_pic,.mvc_pic
+  {
+    position: relative;
+    top:30px;
+    left:30px;  
+    min-height: 200px;
+    min-width: 40px;
+    background-image: url(./images/jmit.jpg);
+    border-radius: 5%;
+    -webkit-box-shadow: 10px 20px 20px rgba(0,0,0,0.60), 0 6px 6px rgba(0,0,0,0.23);
+            box-shadow: 10px 20px 20px rgba(0,0,0,0.60), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  
+  .clg_desc
+  {
+    position: relative;
+    text-align: left;
+    left: 50px;
+    padding: 23px;
+  }
+  
+  .school_pic
+  {
+    background-image: url(./images/svnps.jpg);
+    background-position: cover;
+    background-size: 400px;
+  }
+  
+  .gooffer_pic
+  {
+    background-image: url(./images/goofer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .Idealvillage_pic
+  {
+    background-image: url(./images/Idealvillage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .js_pic
+  {
+    background-image: url(./images/js.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .mvc_pic
+  {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .contacts{
+    position: relative;
+    background-color: transparent;
+    min-height: 400px;
+    top:100px;
+  }
+  
+  .writings
+  {
+    position: relative;
+    top:100px;
+  }
+  
+  .ether_pic{
+    background-image: url(./images/ether.jpg);
+    background-position: cover;
+    background-size: 380px;
+  }
+  
+  .augmenter_pic{
+    background-image: url(./images/augmenter.png);
+    background-position: cover;
+    background-size: 380px;
+  }
+  
+  .hospitobook_pic{
+    background-image: url(./images/hospitobook.png);
+    background-position: cover;
+    background-size: 380px;
+  }
+  
+  .ecommerce{
+    background-image: url(./images/ecommerce.png);
+    background-position: cover;
+    background-size: 380px;
+  }
+  
+ 
+  .personal
+  {
+    background-image: url(./images/personal.png);
+    background-size: 380px;
+  }
+  
+  
+  .fab
+  {
+    margin-top: 50px;;
+    font-size: 12em;
+  
+  }
+  
+  .fa-linkedin
+  {
+    position: relative;
+    left: 0;
+  }
+  
+  .fa-instagram
+  {
+    position: relative;
+    
+    color: #fb3958
+  }
+  
+  .fa-instagram:hover,.fa-whatsapp:hover,.fa-linkedin:hover
+  {
+    -webkit-transform :scale(1.5);
+        -ms-transform :scale(1.5);
+            transform :scale(1.5);
+  }
+  
+  .fa-whatsapp
+  {
+    position: relative;
+    left: 0;
+    color: #34af23
+  }
+  
+  
+  .writings
+  {
+    max-height: 300px;
+    overflow: auto;
+  }
+  
+  
+  
+  
+  
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  .page-footer
+  {
+    position: relative;
+    top:100px;
+  
+  }
+  
+  .menu
+  {
+    font-size:50px;
+    color: black;
+    position:absolute;
+    z-index:51;
+    padding: 20px;
+    opacity: 0.7;
+  }
+
+  
+
+  .nav-list
+{
+  
+  list-style-type: none;
+  margin-top: 170px;
+  font-size:2em;
+  padding: 25px;
+  color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+.nav-list a
+{
+  list-style-type: none;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.nav-list a:hover
+{
+  background-color: orangered;
+  width : 100%;
+}
+
+.modal-backdrop {
+  /* bug fix - no overlay */    
+  z-index: 1 !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+.post{
+  color: white
+}
+
+
+@media all and (orientation: landscape) {
+
+.name
+{
+  
+  top:80px;
+}
+
+.main
+{
+  min-height: 125vh;
+}
+}
+
+
+
+
+
+
+
+@media (max-width : 320px)
+{
+      
+
+    .hr-name
+      {
+        font-size: 1.8em;
+        
+              
+      }
+      .post
+      {
+        font-size: 1em;
+      }
+     .nav
+     {
+      background-color: rgba(0,0,0,0.9); /*dim the background*/
+     }
+      
+}
+
+@media (min-width : 320px) and (max-width: 480px)
+{
+      
+
+    .hr-name
+      {
+        font-size: 2em;
+        
+      }
+      .post
+      {
+        font-size: 1.2em;
+      }
+      .main
+{
+  min-height: 135vh;
+}
+
+.nav
+{
+ background-color: rgba(0,0,0,0.9); /*dim the background*/
+}
+ 
+
+}
+
+@media (min-width : 480px) and (max-width: 960px)
+{
+      
+
+    .hr-name
+      {
+          font-size: 2.8em;
+       
+      }
+      .post
+      {
+        font-size: 1.5em;
+        
+      }
+
+      .nav
+      {
+       background-color: rgba(0,0,0,0.9); /*dim the background*/
+      }
+       
+
+}
+
+
+
+
+
+
+

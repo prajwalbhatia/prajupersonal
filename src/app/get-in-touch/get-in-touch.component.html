@@ -1,0 +1,35 @@
+<i  class="fas fa-bars menu" (click)="onShow()"></i>
+<app-nav-div></app-nav-div>
+<div class="contacts">
+  <h1 class="edu font-weight-bold ">Get In Touch</h1>
+  <div class="conatiner">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 ">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/prajwal-bhatia/"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="col-xs-12 col-sm-4 ">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/prajwal_bhatia/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="col-xs-12 col-sm-4 ">
+            <a target="_blank" rel="noopener noreferrer" ><i class="fab fa-whatsapp" (click)="open(content)"></i></a>
+            <ng-template #content let-modal >
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title">Whats App</h4>
+                  <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  8901059377
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button>
+                </div>
+              </ng-template>
+              
+          </div>
+        
+        
+    </div>
+  </div>
+  

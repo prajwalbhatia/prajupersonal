@@ -1,0 +1,17 @@
+<i  class="fas fa-bars menu" (click)="onShow()"></i>
+<app-nav-div></app-nav-div>
+<div class="container experience no-gutter">
+  <h1 class="edu font-weight-bold ">Articles</h1>
+  <div class="clg container">
+    <div class="row mt-4" *ngFor = "let article of articleData">
+        <div class="col-10 col-md-4 mvc_pic"  [ngStyle]="{ 'background-image': 'url(' + article.image + ')'}">
+        </div>
+        <div class="col-10 col-md-8 clg_desc mt-4">
+          <h2>{{article.name}}</h2>
+          <a target="_blank" rel="noopener noreferrer" href={{article.link}}>Read the article</a>    
+        </div>
+    </div>
+  </div>
+  
+</div>
+
