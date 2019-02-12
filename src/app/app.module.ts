@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import {ServerService} from './server.service';
@@ -13,7 +13,7 @@ import { ArticlesComponent } from './articles/articles.component';
 import { NavDivComponent } from './nav-div/nav-div.component';
 import { DivShow } from './divShow.service';
 import { AppRoutingModule } from './app-routing.module';
-
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -35,7 +35,7 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot(),
+    NgbModule,
     HttpModule,
     AppRoutingModule,
   ],
