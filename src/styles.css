@@ -147,7 +147,7 @@ body
     min-height: 250px;
   }
   
-  .clg_pic,.school_pic,.gooffer_pic,.Idealvillage_pic,.ether_pic,.augmenter_pic,.hospitobook_pic,.ecommerce,.personal,.js_pic,.mvc_pic,.advent_pic
+  .clg_pic,.school_pic,.gooffer_pic,.Idealvillage_pic,.ether_pic,.augmenter_pic,.hospitobook_pic,.ecommerce,.personal,.js_pic,.mvc_pic,.advent_pic,.trace_pic
   {
     position: relative;
     top:30px;
@@ -203,12 +203,21 @@ body
     background-position: center;
   }
 
+  .trace_pic
+  {
+    background-image: url(./images/trace.jpg);
+    background-position: cover;
+    background-size: 380px;
+  }
+
   .mvc_pic
   {
     
     background-repeat: no-repeat;
     background-position: center;
   }
+
+
   
   .contacts{
     position: relative;
