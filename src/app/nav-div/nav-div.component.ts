@@ -18,7 +18,7 @@ export class NavDivComponent implements OnInit {
     this.divShow.newSubject
     .subscribe((data) => {
       this.showDiv = data;
-      console.log(this.showDiv)
+      
     });
   }
 
