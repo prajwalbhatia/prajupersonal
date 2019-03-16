@@ -285,7 +285,8 @@ body
     color: #fb3958
   }
   
-  .fa-instagram:hover,.fa-whatsapp:hover,.fa-linkedin:hover
+  .fa-instagram:hover,.fa-whatsapp:hover,.fa-linkedin:hover,.fa-github:hover
+  
   {
     -webkit-transform :scale(1.5);
         -ms-transform :scale(1.5);
@@ -297,6 +298,13 @@ body
     position: relative;
     left: 0;
     color: #34af23
+  }
+
+  .fa-github
+  {
+    position: relative;
+    
+    color: #191919
   }
   
   
