@@ -11,7 +11,7 @@ export class EducationComponent implements OnInit {
   constructor(private divShow : DivShow) { }
 
   ngOnInit() {
-    this.onShow();
+    
   }
 
   onShow() : void

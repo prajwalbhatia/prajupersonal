@@ -10,7 +10,7 @@ export class ExperienceComponent implements OnInit {
   constructor(private divShow : DivShow) { }
 
   ngOnInit() {
-    this.onShow();
+    
   }
   onShow() : void
   {

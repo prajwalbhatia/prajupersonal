@@ -1,5 +1,7 @@
 
-<i  class="fas fa-bars menu " (click)="onShow()"></i>
+<i  class="fas fa-bars menu " *ngIf="!show"  (click)="onShow()"></i>
+<i  class="fas fa-times menu_cross" *ngIf="show" (click)="onShow()"></i>
+
 <app-nav-div></app-nav-div>      
 <div class="name container intro_container">
         <div class="col-lg-6 offset-lg-7 col-md-7 offset-md-6 aa"  >
@@ -7,7 +9,7 @@
             <h1 class="hr-name d-flex justify-content-center">Prajwal Bhatia </h1>
             
             <h3 class="post d-flex justify-content-center ">(Full Stack Web Developer)</h3>
-       <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-dark d-flex justify-content-center mb-4 mr-4" href="https://www.slideshare.net/slideshow/embed_code/key/vWofogci8UUEE8">Resume</a>
+       <a target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-dark d-flex justify-content-center mb-4 mr-4" href="https://www.slideshare.net/slideshow/embed_code/key/IMLE4Nn3vw19HG">Resume</a>
        <div *ngFor = 'let d of single'>
           <q class="writing">{{d}}</q>
           <pre class="writing">-Prajwal Bhatia</pre>

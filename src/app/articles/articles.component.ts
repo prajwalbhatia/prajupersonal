@@ -21,13 +21,14 @@ export class ArticlesComponent implements OnInit {
         this.articleData = articleData;
         
       });
-      this.onShow();
+      
   }
 
   onShow() : void
   {
         this.show = !this.show;
       this.divShow.getDiv(this.show);
+      
       
   }
 

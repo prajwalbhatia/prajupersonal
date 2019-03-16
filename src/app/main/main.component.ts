@@ -17,7 +17,7 @@ export class MainComponent implements OnInit{
   ngOnInit(){
     
     
-    this.onShow();
+  
     this.serverService.getWritings()
       .subscribe((response : Response)=>{
         const data = response.json();

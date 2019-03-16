@@ -13,7 +13,7 @@ export class GetInTouchComponent implements OnInit {
 
   
   ngOnInit() {
-    this.onShow();
+    
   }
 
   onShow() : void

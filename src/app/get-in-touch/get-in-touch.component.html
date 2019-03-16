@@ -1,4 +1,5 @@
-<i  class="fas fa-bars menu" (click)="onShow()"></i>
+<i  class="fas fa-bars menu " *ngIf="!show"  (click)="onShow()"></i>
+<i  class="fas fa-times menu_cross" *ngIf="show" (click)="onShow()"></i>
 <app-nav-div></app-nav-div>
 <div class="contacts">
   <h1 class="edu font-weight-bold ">Get In Touch</h1>

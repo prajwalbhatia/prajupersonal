@@ -25,6 +25,7 @@ body
     z-index: -1;
     background-attachment: fixed;
     position: relative;
+   
 }
 
 .overlay
@@ -325,7 +326,7 @@ body
   
   }
   
-  .menu
+  .menu , .menu_cross
   {
     font-size:50px;
     color: black;
@@ -333,6 +334,11 @@ body
     z-index:51;
     padding: 20px;
     opacity: 0.7;
+  }
+
+  .menu_cross
+  {
+    color: white;
   }
 
   
