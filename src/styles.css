@@ -240,19 +240,19 @@ body
   }
   
   .augmenter_pic{
-    background-image: url(./images/augmenter.png);
+    background-image: url(./images/augmenter.jpg);
     background-position: cover;
     background-size: 380px;
   }
   
   .hospitobook_pic{
-    background-image: url(./images/hospitobook.png);
+    background-image: url(./images/hospitobook.jpg);
     background-position: cover;
     background-size: 380px;
   }
   
   .ecommerce{
-    background-image: url(./images/ecommerce.png);
+    background-image: url(./images/ecommerce.jpg);
     background-position: cover;
     background-size: 380px;
   }
@@ -260,7 +260,7 @@ body
  
   .personal
   {
-    background-image: url(./images/personal.png);
+    background-image: url(./images/personal.jpg);
     background-size: 380px;
   }
   
